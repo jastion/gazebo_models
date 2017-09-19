@@ -1,0 +1,43 @@
+<robot
+  name="Ikea Linnmon">
+  <link
+    name="Ikea Linnmon">
+    <inertial>
+      <origin
+        xyz="-1.9626E-16 1.90696312932389E-16 0.66301"
+        rpy="0 0 0" />
+      <mass
+        value="23.919" />
+      <inertia
+        ixx="1.38953226638294"
+        ixy="-6.77626357803438E-18"
+        ixz="-1.60509882274955E-16"
+        iyy="2.88169435309495"
+        iyz="-1.6296621173316E-16"
+        izz="3.17154815101741" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ikea Linnmon/meshes/Ikea Linnmon.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Ikea Linnmon/meshes/Ikea Linnmon.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

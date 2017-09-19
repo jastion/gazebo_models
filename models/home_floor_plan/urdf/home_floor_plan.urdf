@@ -1,0 +1,43 @@
+<robot
+  name="Home Floor plan">
+  <link
+    name="Home">
+    <inertial>
+      <origin
+        xyz="-0.96729 3.31 1"
+        rpy="0 0 0" />
+      <mass
+        value="23856" />
+      <inertia
+        ixx="571534.18113589"
+        ixy="-25812.1155177834"
+        ixz="2.39459372637696E-11"
+        iyy="1065851.889357"
+        iyz="1.10847414353603E-10"
+        izz="1621482.16671519" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Home/meshes/Home.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.5215686274509 0.3686274509803 0.2588235294117 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://Home/meshes/Home.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

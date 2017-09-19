@@ -1,0 +1,43 @@
+<robot
+  name="apartment_floor_plan">
+  <link
+    name="apartment_floor_plan">
+    <inertial>
+      <origin
+        xyz="-0.43034 0.48007 2.26"
+        rpy="0 0 0" />
+      <mass
+        value="28.743" />
+      <inertia
+        ixx="187.967646036987"
+        ixy="-8.68077767090581"
+        ixz="-7.87552904811458"
+        iyy="491.860976418071"
+        iyz="-3.23664862977446"
+        izz="639.528790115555" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://apartment_floor_plan/meshes/apartment_floor_plan.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://apartment_floor_plan/meshes/apartment_floor_plan.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
