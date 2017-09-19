@@ -1,7 +1,7 @@
 <robot
-  name="Home Floor plan">
+  name="home_floor_plan">
   <link
-    name="Home">
+    name="home_floor_plan">
     <inertial>
       <origin
         xyz="-0.96729 3.31 1"
@@ -22,7 +22,7 @@
         rpy="1.5707963267949 0 0" />
       <geometry>
         <mesh
-          filename="package://Home/meshes/Home.STL" />
+          filename="package://home_floor_plan/meshes/home_floor_plan.STL" />
       </geometry>
       <material
         name="">
@@ -36,7 +36,7 @@
         rpy="1.5707963267949 0 0" />
       <geometry>
         <mesh
-          filename="package://Home/meshes/Home.STL" />
+          filename="package://home_floor_plan/meshes/home_floor_plan.STL" />
       </geometry>
     </collision>
   </link>

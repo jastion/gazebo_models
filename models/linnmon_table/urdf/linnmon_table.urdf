@@ -1,7 +1,7 @@
 <robot
-  name="Ikea Linnmon">
+  name="linnmon_table">
   <link
-    name="Ikea Linnmon">
+    name="linnmon_table">
     <inertial>
       <origin
         xyz="-1.9626E-16 1.90696312932389E-16 0.66301"
@@ -22,7 +22,7 @@
         rpy="1.5707963267949 0 0" />
       <geometry>
         <mesh
-          filename="package://Ikea Linnmon/meshes/Ikea Linnmon.STL" />
+          filename="package://linnmon_table/meshes/linnmon_table.STL" />
       </geometry>
       <material
         name="">
@@ -36,7 +36,7 @@
         rpy="1.5707963267949 0 0" />
       <geometry>
         <mesh
-          filename="package://Ikea Linnmon/meshes/Ikea Linnmon.STL" />
+          filename="package://linnmon_table/meshes/linnmon_table.STL" />
       </geometry>
     </collision>
   </link>
