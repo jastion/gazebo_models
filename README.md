@@ -15,5 +15,9 @@
 
 - gazebo world files should reference from the .gazebo/model folders!
 
+## Add to ~/.bashrc to add directory to Gazebo Model Search
+- source /usr/share/gazebo/setup.sh
+- export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:/home/michael/catkin_ws/src/gazebo_models/models
+
 ## References
 - SDF Format: http://sdformat.org/spec
