@@ -98,7 +98,7 @@
           <pose>0 0 0 1.5708 -0 0</pose>
           <geometry>
             <mesh>
-              <scale>1 1 1</scale>
+              <scale>0.5 0.5 1</scale>
               <uri>model://home_floor_plan/meshes/home_floor_plan.STL</uri>
             </mesh>
           </geometry>
@@ -117,7 +117,7 @@
           <pose>0 0 0 1.5708 -0 0</pose>
           <geometry>
             <mesh>
-              <scale>1 1 1</scale>
+              <scale>0.5 0.5 1</scale>
               <uri>model://home_floor_plan/meshes/home_floor_plan.STL</uri>
             </mesh>
           </geometry>

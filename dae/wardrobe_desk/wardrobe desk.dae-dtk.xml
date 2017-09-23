@@ -1,0 +1,899 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="C:\Program Files\DATAKIT\CrossManager2017_64bit\schema\dtk_xsl\dtk_171.xsl"?>
+<Log>
+<DtkApiVersion>171</DtkApiVersion>
+<DtkDllVersion>1227</DtkDllVersion>
+<ProductMode>Dtk</ProductMode>
+<InputFormat>SOLIDWORKS</InputFormat>
+<OutputFormat>COLLADA</OutputFormat>
+<HealingFlag>0</HealingFlag>
+<ConfigFile>C:\Users\Michael\AppData\Roaming\Datakit\CrossManager\dtkConfig.dtk</ConfigFile>
+<FileName><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\wardrobe desk.SLDASM]]></FileName>
+<FileVersion>Official version for SolidWorks 2017 </FileVersion>
+<OutPutFileName><![CDATA[D:\Users\Michael\Desktop\CAD\DAE\wardrobe desk.dae]]></OutPutFileName>
+<OutPutFileSize>91653</OutPutFileSize>
+<bill_of_materials>
+<component_root><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\wardrobe desk.SLDASM]]></path><type>Assembly</type><name><![CDATA[wardrobe desk]]></name><status>dtkNoError</status><size>190025</size><unit>Millimeters</unit><version></version></component_root>
+<component><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part4.SLDPRT]]></path><type>Part</type><quantity>1</quantity><name><![CDATA[Part4]]></name><status>dtkNoError</status><size>36656</size><unit>Millimeters</unit><version></version></component>
+<component><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part5.SLDPRT]]></path><type>Part</type><quantity>2</quantity><name><![CDATA[Part5]]></name><status>dtkNoError</status><size>34754</size><unit>Millimeters</unit><version></version></component>
+<component><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part6.SLDPRT]]></path><type>Part</type><quantity>1</quantity><name><![CDATA[Part6]]></name><status>dtkNoError</status><size>39027</size><unit>Millimeters</unit><version></version></component>
+<component><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part7.SLDPRT]]></path><type>Part</type><quantity>2</quantity><name><![CDATA[Part7]]></name><status>dtkNoError</status><size>39677</size><unit>Millimeters</unit><version></version></component>
+<component><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part8.SLDPRT]]></path><type>Part</type><quantity>1</quantity><name><![CDATA[Part8]]></name><status>dtkNoError</status><size>54155</size><unit>Millimeters</unit><version></version></component>
+<component><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part9.SLDPRT]]></path><type>Part</type><quantity>1</quantity><name><![CDATA[Part9]]></name><status>dtkNoError</status><size>39249</size><unit>Millimeters</unit><version></version></component>
+<component><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part10.SLDPRT]]></path><type>Part</type><quantity>1</quantity><name><![CDATA[Part10]]></name><status>dtkNoError</status><size>93531</size><unit>Millimeters</unit><version></version></component>
+<component><path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part11.SLDPRT]]></path><type>Part</type><quantity>2</quantity><name><![CDATA[Part11]]></name><status>dtkNoError</status><size>140285</size><unit>Millimeters</unit><version></version></component>
+</bill_of_materials>
+<components_info>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\wardrobe desk.SLDASM]]></path>
+<name><![CDATA[wardrobe desk]]></name>
+<meta>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[wardrobe desk]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[wardrobe desk]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:10:38 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:11:11 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>Assembly type</title><value><![CDATA[No]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[wardrobe desk]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[wardrobe desk]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:10:38 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:11:11 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>Assembly type</title><value><![CDATA[No]]></value><type>TypeFileProperty</type></property>
+</meta>
+</component>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part4.SLDPRT]]></path>
+<name><![CDATA[Part4]]></name>
+<meta>
+<property><title>#swReference</title><value><![CDATA[part4-1@wardrobe desk]]></value><type>TypeProperty</type></property>
+<property><title>#swDisplayState</title><value><![CDATA[<Default>_Display State 1]]></value><type>TypeProperty</type></property>
+<property><title>Description</title><value><![CDATA[wardrobe desk rear ]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 11:26:01 AM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Description</title><value><![CDATA[wardrobe desk rear ]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 11:26:01 AM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+</meta>
+<information>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+</information>
+</component>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part5.SLDPRT]]></path>
+<name><![CDATA[Part5]]></name>
+<meta>
+<property><title>#swReference</title><value><![CDATA[part5-1@wardrobe desk]]></value><type>TypeProperty</type></property>
+<property><title>#swDisplayState</title><value><![CDATA[<Default>_Display State 1]]></value><type>TypeProperty</type></property>
+<property><title>Description</title><value><![CDATA[side]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 11:54:05 AM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Description</title><value><![CDATA[side]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 11:54:05 AM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+</meta>
+<information>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+</information>
+</component>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part6.SLDPRT]]></path>
+<name><![CDATA[Part6]]></name>
+<meta>
+<property><title>#swReference</title><value><![CDATA[part6-1@wardrobe desk]]></value><type>TypeProperty</type></property>
+<property><title>#swDisplayState</title><value><![CDATA[<Default>_Display State 1]]></value><type>TypeProperty</type></property>
+<property><title>Description</title><value><![CDATA[top]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part6]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part6]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 11:57:38 AM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Description</title><value><![CDATA[top]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part6]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part6]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 11:57:38 AM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+</meta>
+<information>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+</information>
+</component>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part7.SLDPRT]]></path>
+<name><![CDATA[Part7]]></name>
+<meta>
+<property><title>#swReference</title><value><![CDATA[part7-1@wardrobe desk]]></value><type>TypeProperty</type></property>
+<property><title>#swDisplayState</title><value><![CDATA[<Default>_Display State 1]]></value><type>TypeProperty</type></property>
+<property><title>Description</title><value><![CDATA[shelf]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part7]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part7]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 11:59:44 AM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Description</title><value><![CDATA[shelf]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part7]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part7]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 11:59:44 AM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+</meta>
+<information>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+</information>
+</component>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part8.SLDPRT]]></path>
+<name><![CDATA[Part8]]></name>
+<meta>
+<property><title>#swReference</title><value><![CDATA[part8-1@wardrobe desk]]></value><type>TypeProperty</type></property>
+<property><title>#swDisplayState</title><value><![CDATA[<Default>_Display State 1]]></value><type>TypeProperty</type></property>
+<property><title>Description</title><value><![CDATA[desk facia]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part8]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part8]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:04:49 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[9]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[6]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Description</title><value><![CDATA[desk facia]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part8]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part8]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:04:49 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[9]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[6]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+</meta>
+<information>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+</information>
+</component>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part9.SLDPRT]]></path>
+<name><![CDATA[Part9]]></name>
+<meta>
+<property><title>#swReference</title><value><![CDATA[part9-1@wardrobe desk]]></value><type>TypeProperty</type></property>
+<property><title>#swDisplayState</title><value><![CDATA[<Default>_Display State 1]]></value><type>TypeProperty</type></property>
+<property><title>Description</title><value><![CDATA[bottom]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part9]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part9]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:09:14 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Description</title><value><![CDATA[bottom]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part9]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part9]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:09:14 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+</meta>
+<information>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+</information>
+</component>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part10.SLDPRT]]></path>
+<name><![CDATA[Part10]]></name>
+<meta>
+<property><title>#swReference</title><value><![CDATA[part10-1@wardrobe desk]]></value><type>TypeProperty</type></property>
+<property><title>#swDisplayState</title><value><![CDATA[<Default>_Display State 1]]></value><type>TypeProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part10]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part10]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:21:25 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part10]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part10]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:21:25 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+</meta>
+<information>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+</information>
+</component>
+<component>
+<path><![CDATA[D:\Users\Michael\Desktop\CAD\RAR\cabinet-table-1.snapshot.1\new project\Part11.SLDPRT]]></path>
+<name><![CDATA[Part11]]></name>
+<meta>
+<property><title>#swReference</title><value><![CDATA[part11-1@wardrobe desk]]></value><type>TypeProperty</type></property>
+<property><title>#swDisplayState</title><value><![CDATA[<Default>_Display State 1]]></value><type>TypeProperty</type></property>
+<property><title>Description</title><value><![CDATA[shutters]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part11]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part11]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:47:52 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Description</title><value><![CDATA[shutters]]></value><type>TypeFileProperty</type></property>
+<property><title>NAME</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-File Name</title><value><![CDATA[Part11]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-BOM Part Number</title><value><![CDATA[Part11]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Folder Name</title><value><![CDATA[E:\models\new project\]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Short Date</title><value><![CDATA[9/6/2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Long Date</title><value><![CDATA[Wednesday, September 6, 2017]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Configuration Name</title><value><![CDATA[Default]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Author</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Keywords</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Comments</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Title</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Subject</title><value><![CDATA[]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Created Date</title><value><![CDATA[Wednesday, September 6, 2017 12:47:52 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved Date</title><value><![CDATA[Wednesday, September 6, 2017 1:01:50 PM]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-Last Saved By</title><value><![CDATA[PC3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitSystem</title><value><![CDATA[5]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinear</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFractionDenominator</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinear</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyUnits</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalDisplay</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFractionDenominator</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngular</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsAngularDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropLength</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropMass</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsMassPropVolume</title><value><![CDATA[4]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsTimeDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForce</title><value><![CDATA[3]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsForceDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsPowerDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsEnergyDecimalPlaces</title><value><![CDATA[2]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDecimalRounding</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearRoundToNearestFraction</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>SW_UnitsDualLinearFeetAndInchesFormat</title><value><![CDATA[1]]></value><type>TypeFileProperty</type></property>
+<property><title>SW-HasDesignTable</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+<property><title>Component Type</title><value><![CDATA[0]]></value><type>TypeFileProperty</type></property>
+</meta>
+<information>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+<info><message><![CDATA[The Mesh result is open : 4 border(s) error ]]></message><type><![CDATA[Tesselation]]></type></info>
+<info><message><![CDATA[The Mesh result is open : 4 border(s) error ]]></message><type><![CDATA[Tesselation]]></type></info>
+<info><message><![CDATA[The Mesh result is close (Waterproof result)]]></message><type><![CDATA[Tesselation]]></type></info>
+</information>
+</component>
+</components_info>
+<output_files_written>
+<file><path><![CDATA[D:\Users\Michael\Desktop\CAD\DAE\wardrobe desk.dae]]></path><size>91653</size></file>
+</output_files_written>
+<information>
+<info><message><![CDATA[6 entities faceted]]></message><type><![CDATA[Tessellation]]></type></info>
+<info><message><![CDATA[12 triangles with 24 vertex written]]></message><type><![CDATA[Tessellation]]></type></info>
+</information>
+<configuration>
+<path><![CDATA[C:\Users\Michael\AppData\Roaming\Datakit\CrossManager\dtkConfig.dtk]]></path>
+<section>
+<name><![CDATA[STL CONF]]></name>
+<config><parameter>MAXSIZE</parameter><value>100000000000000007629769841091887003294964970946560.000000</value></config>
+<config><parameter>MINSIZE</parameter><value>0.000000</value></config>
+<config><parameter>RATIO</parameter><value>10000.000000</value></config>
+<config><parameter>LINEAR_DIS</parameter><value>1</value></config>
+<config><parameter>LINEAR_TOL</parameter><value>0.100000</value></config>
+<config><parameter>ANGULAR_DIS</parameter><value>1</value></config>
+<config><parameter>ANGULAR_TOL</parameter><value>0.174533</value></config>
+<config><parameter>WRITE_ASCII</parameter><value>0</value></config>
+<config><parameter>COMPUTE_NORMALES_FROM_SURFACE</parameter><value>1</value></config>
+<config><parameter>USE_TESSEL</parameter><value>1</value></config>
+<config><parameter>COMPUTE_BOUNDARIES_FROM_MESH</parameter><value>1</value></config>
+</section>
+<section>
+<name><![CDATA[TRANSFORMATION ENTITES]]></name>
+<config><parameter>KEEP_ASSEMBLY</parameter><value>1</value></config>
+<config><parameter>BODY_TO_NURBS</parameter><value>0</value></config>
+<config><parameter>EXPLOSE_GROUP</parameter><value>1</value></config>
+<config><parameter>MERGE_BODIES</parameter><value>0</value></config>
+</section>
+<section>
+<name><![CDATA[FILTRAGE DE DOMAINE]]></name>
+<config><parameter>COURBE_LIM_3D</parameter><value>0</value></config>
+<config><parameter>FILAIRE</parameter><value>0</value></config>
+<config><parameter>FDT</parameter><value>0</value></config>
+<config><parameter>FEATURES</parameter><value>1</value></config>
+<config><parameter>META_PARAMETERS</parameter><value>0</value></config>
+<config><parameter>REFERENTIEL</parameter><value>1</value></config>
+<config><parameter>MESH</parameter><value>1</value></config>
+<config><parameter>RENDER_INFOS</parameter><value>1</value></config>
+<config><parameter>MODEL_DISPLAY</parameter><value>0</value></config>
+<config><parameter>DRAW</parameter><value>0</value></config>
+<config><parameter>CONSTRUCT_SOLIDS</parameter><value>1</value></config>
+</section>
+<section>
+<name><![CDATA[MODIFICATION D'ATTRIBUT]]></name>
+<config><parameter>VISIBILITY</parameter><value>-1</value></config>
+<config><parameter>ASM_VISIBILITY</parameter><value>-1</value></config>
+<config><parameter>FDT_VISIBILITY</parameter><value>-1</value></config>
+</section>
+<section>
+<name><![CDATA[DIALOG BOX]]></name>
+<config><parameter>CHOOSE_AXIS</parameter><value>0</value></config>
+<config><parameter>CHOOSE_IN_CATALOG</parameter><value>-1</value></config>
+<config><parameter>CHOOSE_LAYER_FILTER</parameter><value>0</value></config>
+<config><parameter>CHOOSE_IN_ASSEMBLY_TREE</parameter><value>0</value></config>
+</section>
+<section>
+<name><![CDATA[SCISSION FICHIER]]></name>
+<config><parameter>PAR_SOLIDE</parameter><value>0</value></config>
+<config><parameter>PER_CATALOG</parameter><value>0</value></config>
+</section>
+</configuration>
+<Conversion>
+<Start>  19:31:00</Start>
+<End>  19:31:02</End>
+<Duration>2 sec</Duration>
+</Conversion>
+</Log>
