@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot>
+	<material name="lazy_brown">
+		<color rgba="0.96863 0.90588 0.8078"/>
+	</material>
+
+
+
+	
+</robot>

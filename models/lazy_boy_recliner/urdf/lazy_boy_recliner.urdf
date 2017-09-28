@@ -1,5 +1,5 @@
 <robot
-  name="Lazy-boy recliner">
+  name="lazy_boy_recliner">
   <link
     name="lazy_boy_recliner">
     <inertial>
