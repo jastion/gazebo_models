@@ -1,0 +1,43 @@
+<robot
+  name="computer_mouse">
+  <link
+    name="computer_mouse">
+    <inertial>
+      <origin
+        xyz="0.057011 -5.8370999999999E-05 0.015992"
+        rpy="0 0 0" />
+      <mass
+        value="0.02403" />
+      <inertia
+        ixx="1.25306610845895E-05"
+        ixy="2.45177478458375E-08"
+        ixz="5.51756227384192E-07"
+        iyy="2.81495619488674E-05"
+        iyz="-9.8827486902963E-09"
+        izz="3.30333573392358E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://computer_mouse/meshes/computer_mouse.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://computer_mouse/meshes/computer_mouse.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

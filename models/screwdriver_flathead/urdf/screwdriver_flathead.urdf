@@ -1,0 +1,43 @@
+<robot
+  name="screwdriver_flathead">
+  <link
+    name="screwdriver_flathead">
+    <inertial>
+      <origin
+        xyz="-2.5375E-07 -0.14813 -8.471299999093E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.44245" />
+      <inertia
+        ixx="0.00496369316155027"
+        ixy="1.51493739646637E-08"
+        ixz="1.73323032923498E-08"
+        iyy="8.96282349725575E-05"
+        iyz="-4.38558257116339E-09"
+        izz="0.00496372690488569" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://screwdriver_flathead/meshes/screwdriver_flathead.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://screwdriver_flathead/meshes/screwdriver_flathead.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

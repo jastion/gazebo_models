@@ -1,0 +1,43 @@
+<robot
+  name="desk_chair">
+  <link
+    name="desk_chair">
+    <inertial>
+      <origin
+        xyz="-0.04907 0.016411 0.69609"
+        rpy="0 0 0" />
+      <mass
+        value="42.21" />
+      <inertia
+        ixx="3.96630214848449"
+        ixy="-0.00736985069597354"
+        ixz="-0.595064709079056"
+        iyy="3.27658979061629"
+        iyz="-0.0527473279427844"
+        izz="1.84806557467469" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://desk_chair/meshes/desk_chair.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://desk_chair/meshes/desk_chair.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

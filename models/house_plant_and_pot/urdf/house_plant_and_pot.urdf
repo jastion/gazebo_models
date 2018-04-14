@@ -1,0 +1,43 @@
+<robot
+  name="house_plant_and_pot">
+  <link
+    name="house_plant_and_pot">
+    <inertial>
+      <origin
+        xyz="-0.00059765 5.2125000000005E-05 0.081225"
+        rpy="0 0 0" />
+      <mass
+        value="0.56672" />
+      <inertia
+        ixx="0.00140319367063459"
+        ixy="4.43312359479129E-06"
+        ixz="-5.71577262453261E-05"
+        iyy="0.00140678583511091"
+        iyz="-9.32963622417043E-06"
+        izz="0.000383774697138069" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://house_plant_and_pot/meshes/house_plant_and_pot.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://house_plant_and_pot/meshes/house_plant_and_pot.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

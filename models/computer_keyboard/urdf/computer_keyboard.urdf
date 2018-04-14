@@ -1,0 +1,43 @@
+<robot
+  name="computer_keyboard">
+  <link
+    name="computer_keyboard">
+    <inertial>
+      <origin
+        xyz="0.088171 -0.013125 -0.0087777"
+        rpy="0 0 0" />
+      <mass
+        value="0.076888" />
+      <inertia
+        ixx="2.32882674141847E-05"
+        ixy="1.37979991885576E-06"
+        ixz="-1.3207215150878E-07"
+        iyy="0.000203756172928769"
+        iyz="-1.74218953923965E-06"
+        izz="0.000225909845318217" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://computer_keyboard/meshes/computer_keyboard.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://computer_keyboard/meshes/computer_keyboard.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

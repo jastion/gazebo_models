@@ -1,0 +1,43 @@
+<robot
+  name="keyboard_logitech">
+  <link
+    name="keyboard_logitech">
+    <inertial>
+      <origin
+        xyz="-0.00068375 -0.0011886 0.0079842"
+        rpy="0 0 0" />
+      <mass
+        value="0.8447" />
+      <inertia
+        ixx="0.00122659667437714"
+        ixy="1.57309587676106E-05"
+        ixz="-6.46223472767887E-06"
+        iyy="0.0129216117005108"
+        iyz="1.10117265025971E-05"
+        izz="0.0141060344745101" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://keyboard_logitech/meshes/keyboard_logitech.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://keyboard_logitech/meshes/keyboard_logitech.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,43 @@
+<robot
+  name="desk_smart">
+  <link
+    name="desk_smart">
+    <inertial>
+      <origin
+        xyz="1.1744 0.14199 1.0289"
+        rpy="0 0 0" />
+      <mass
+        value="79.786" />
+      <inertia
+        ixx="4.50248087330891"
+        ixy="0.618242437940312"
+        ixz="0.146968896019592"
+        iyy="13.9921096301157"
+        iyz="0.32429554046355"
+        izz="14.2500283375285" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://desk_smart/meshes/desk_smart.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://desk_smart/meshes/desk_smart.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

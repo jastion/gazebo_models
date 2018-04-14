@@ -1,0 +1,43 @@
+<robot
+  name="desk_study">
+  <link
+    name="desk_study">
+    <inertial>
+      <origin
+        xyz="0.085674 0.061346 -0.13683"
+        rpy="0 0 0" />
+      <mass
+        value="42.881" />
+      <inertia
+        ixx="2.69795831881645"
+        ixy="0.242859814363661"
+        ixz="-0.460253047467825"
+        iyy="12.2053387922709"
+        iyz="0.422183356087361"
+        izz="12.0129764039982" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://desk_study/meshes/desk_study.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://desk_study/meshes/desk_study.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

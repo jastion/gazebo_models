@@ -1,0 +1,43 @@
+<robot
+  name="monitor_samsung">
+  <link
+    name="monitor_samsung">
+    <inertial>
+      <origin
+        xyz="9.8457E-08 -0.00255479999999999 0.15556"
+        rpy="0 0 0" />
+      <mass
+        value="8.2492" />
+      <inertia
+        ixx="0.144477439977369"
+        ixy="3.80307769601159E-07"
+        ixz="1.22055596483731E-07"
+        iyy="0.562511392964871"
+        iyz="0.00339819172161521"
+        izz="0.43025789791802" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://monitor_samsung/meshes/monitor_samsung.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://monitor_samsung/meshes/monitor_samsung.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

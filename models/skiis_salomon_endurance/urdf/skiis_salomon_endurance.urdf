@@ -1,0 +1,43 @@
+<robot
+  name="skiis_salomon_endurance">
+  <link
+    name="skiis_salomon_endurance">
+    <inertial>
+      <origin
+        xyz="0.017521 9.85470000000009E-05 0.014948"
+        rpy="0 0 0" />
+      <mass
+        value="2.5148" />
+      <inertia
+        ixx="0.00188041378261324"
+        ixy="-1.61177909950135E-06"
+        ixz="0.00159103655818898"
+        iyy="0.418458677271132"
+        iyz="-2.62947314227097E-06"
+        izz="0.419826333614315" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://skiis_salomon_endurance/meshes/skiis_salomon_endurance.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.098039 0.098039 0.098039 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://skiis_salomon_endurance/meshes/skiis_salomon_endurance.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

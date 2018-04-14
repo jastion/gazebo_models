@@ -1,0 +1,45 @@
+<robot
+  name="toilet1">
+  <static>true</static>
+  <link
+    name="toilet1">
+    <gravity>0</gravity>
+    <inertial>
+      <origin
+        xyz="0.0 -0.0 0.0"
+        rpy="0 0 0" />
+      <mass
+        value="0.56751" />
+      <inertia
+        ixx="55.00262428531482577"
+        ixy="-55.62139681988585E-07"
+        ixz="55.69406205524756E-06"
+        iyy="55.00163367731069798"
+        iyz="+55.000931878784945008"
+        izz="-15.00142809452019333" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toilet1/meshes/toilet1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toilet1/meshes/toilet1.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

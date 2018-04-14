@@ -1,0 +1,43 @@
+<robot
+  name="galaxy_s6">
+  <link
+    name="galaxy_s6">
+    <inertial>
+      <origin
+        xyz="1.2499E-05 0.00031414 0.0036066"
+        rpy="0 0 0" />
+      <mass
+        value="0.20209" />
+      <inertia
+        ixx="0.000343083703559243"
+        ixy="-3.35684952326235E-07"
+        ixz="2.36669785081226E-09"
+        iyy="8.78411048518341E-05"
+        iyz="1.96363658277115E-07"
+        izz="0.000429153801140963" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://galaxy_s6/meshes/galaxy_s6.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.91765 0.92941 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://galaxy_s6/meshes/galaxy_s6.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

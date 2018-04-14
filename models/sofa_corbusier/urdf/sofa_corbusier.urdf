@@ -1,0 +1,43 @@
+<robot
+  name="sofa_corbusier">
+  <link
+    name="sofa_corbusier">
+    <inertial>
+      <origin
+        xyz="9.0652E-06 0.03412 0.21913"
+        rpy="0 0 0" />
+      <mass
+        value="4320.4" />
+      <inertia
+        ixx="281.852014457534"
+        ixy="0.00857244290455591"
+        ixz="-0.00750660439928926"
+        iyy="1540.23131489387"
+        iyz="-28.197115226219"
+        izz="1644.55814123264" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sofa_corbusier/meshes/sofa_corbusier.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.64706 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sofa_corbusier/meshes/sofa_corbusier.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

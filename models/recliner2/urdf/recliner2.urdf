@@ -1,0 +1,43 @@
+<robot
+  name="recliner2">
+  <link
+    name="recliner2">
+    <inertial>
+      <origin
+        xyz="8.1785E-08 0.44463 0.57715"
+        rpy="0 0 0" />
+      <mass
+        value="54.422" />
+      <inertia
+        ixx="11.7930334878324"
+        ixy="-7.76194573725334E-06"
+        ixz="-1.19289301376297E-05"
+        iyy="4.76192598734964"
+        iyz="-3.84353573035394"
+        izz="10.1915163578308" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://recliner2/meshes/recliner2.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://recliner2/meshes/recliner2.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

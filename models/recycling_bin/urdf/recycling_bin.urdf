@@ -1,0 +1,43 @@
+<robot
+  name="recycling_bin">
+  <link
+    name="recycling_bin">
+    <inertial>
+      <origin
+        xyz="0.10451 -0.18158 0.055891"
+        rpy="0 0 0" />
+      <mass
+        value="1.4597" />
+      <inertia
+        ixx="0.0344638184536895"
+        ixy="-5.60042153569038E-08"
+        ixz="1.08352869530788E-10"
+        iyy="0.0337018404615288"
+        iyz="3.72324284817901E-08"
+        izz="0.0452733699775283" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://recycling_bin/meshes/recycling_bin.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://recycling_bin/meshes/recycling_bin.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

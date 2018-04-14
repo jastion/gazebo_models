@@ -1,0 +1,43 @@
+<robot
+  name="lack_coffeetable_ikea">
+  <link
+    name="lack_coffeetable_ikea">
+    <inertial>
+      <origin
+        xyz="2.0856E-16 -1.27734877958624E-17 -0.054285"
+        rpy="0 0 0" />
+      <mass
+        value="61.868" />
+      <inertia
+        ixx="3.91041446177975"
+        ixy="-9.16286361021813E-17"
+        ixz="1.27401209156983E-15"
+        iyy="8.56300928994739"
+        iyz="1.03536513249779E-16"
+        izz="11.2864812352355" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lack_coffeetable_ikea/meshes/lack_coffeetable_ikea.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lack_coffeetable_ikea/meshes/lack_coffeetable_ikea.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,43 @@
+<robot
+  name="cabinet_china">
+  <link
+    name="cabinet_china">
+    <inertial>
+      <origin
+        xyz="0.00079668 0.20901 1.0381"
+        rpy="0 0 0" />
+      <mass
+        value="206" />
+      <inertia
+        ixx="115.214864209485"
+        ixy="-0.291428586649958"
+        ixz="0.0633830084501721"
+        iyy="201.695778437275"
+        iyz="0.368064159652231"
+        izz="100.429463489126" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cabinet_china/meshes/cabinet_china.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cabinet_china/meshes/cabinet_china.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

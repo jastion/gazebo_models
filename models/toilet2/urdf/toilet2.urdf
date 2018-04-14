@@ -1,0 +1,43 @@
+<robot
+  name="toilet2">
+  <link
+    name="toilet2">
+    <inertial>
+      <origin
+        xyz="0.00070998 -0.22027 -0.2038"
+        rpy="0 0 0" />
+      <mass
+        value="80.937" />
+      <inertia
+        ixx="5.67383451936631"
+        ixy="-0.011410768824563"
+        ixz="0.00558193885746203"
+        iyy="3.23238272330359"
+        iyz="0.351163499555476"
+        izz="3.78857874921689" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toilet2/meshes/toilet2.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toilet2/meshes/toilet2.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

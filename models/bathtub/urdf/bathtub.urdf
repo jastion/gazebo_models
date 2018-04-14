@@ -1,0 +1,43 @@
+<robot
+  name="bathtub">
+  <link
+    name="bathtub">
+    <inertial>
+      <origin
+        xyz="0.719 -0.3944 0.22358"
+        rpy="0 0 0" />
+      <mass
+        value="225.68" />
+      <inertia
+        ixx="34.6609627222777"
+        ixy="0.195860480434891"
+        ixz="0.530039521401783"
+        iyy="64.4681508732624"
+        iyz="4.27368674485468"
+        izz="61.9040363659328" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bathtub/meshes/bathtub.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bathtub/meshes/bathtub.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

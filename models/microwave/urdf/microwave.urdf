@@ -1,0 +1,43 @@
+<robot
+  name="microwave">
+  <link
+    name="microwave">
+    <inertial>
+      <origin
+        xyz="0.30597 -0.14693 0.15806"
+        rpy="0 0 0" />
+      <mass
+        value="9.6548" />
+      <inertia
+        ixx="0.272645692195854"
+        ixy="0.0245674726596831"
+        ixz="-0.00419302906617594"
+        iyy="0.601134430225031"
+        iyz="-0.00150380258175944"
+        izz="0.570520809795369" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://microwave/meshes/microwave.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.89804 0.89804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://microwave/meshes/microwave.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

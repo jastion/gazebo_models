@@ -1,0 +1,43 @@
+<robot
+  name="cup_ceramic">
+  <link
+    name="cup_ceramic">
+    <inertial>
+      <origin
+        xyz="-0.015136 -1.77009999693499E-09 0.050057"
+        rpy="0 0 0" />
+      <mass
+        value="0.59971" />
+      <inertia
+        ixx="0.00161232368860069"
+        ixy="-8.25301210360797E-10"
+        ixz="-9.03614011707511E-05"
+        iyy="0.0023207843092717"
+        iyz="7.45868265789437E-10"
+        izz="0.0021061706621893" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cup_ceramic/meshes/cup_ceramic.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0.75294 0.6" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cup_ceramic/meshes/cup_ceramic.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

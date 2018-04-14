@@ -1,0 +1,43 @@
+<robot
+  name="adjustable_wrench">
+  <link
+    name="adjustable_wrench">
+    <inertial>
+      <origin
+        xyz="-0.18135 0.01237 -2.28460000000757E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.75463" />
+      <inertia
+        ixx="0.000303732022922197"
+        ixy="0.000167620734212433"
+        ixz="9.47510321265141E-08"
+        iyy="0.00498520131497565"
+        iyz="1.40974289718993E-08"
+        izz="0.00526979452611578" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://adjustable_wrench/meshes/adjustable_wrench.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://adjustable_wrench/meshes/adjustable_wrench.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

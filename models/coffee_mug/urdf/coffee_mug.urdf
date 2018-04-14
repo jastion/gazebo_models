@@ -1,0 +1,43 @@
+<robot
+  name="coffee_mug">
+  <link
+    name="coffee_mug">
+    <inertial>
+      <origin
+        xyz="0.003306 -6.0140999999649E-07 0.057329"
+        rpy="0 0 0" />
+      <mass
+        value="0.071599" />
+      <inertia
+        ixx="0.00010544771630731"
+        ixy="1.00462092658696E-09"
+        ixz="5.79712159913061E-06"
+        iyy="0.000118907118350674"
+        iyz="7.68416810268359E-10"
+        izz="8.93148066821064E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://coffee_mug/meshes/coffee_mug.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.98431 0.98431 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://coffee_mug/meshes/coffee_mug.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

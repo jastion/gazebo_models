@@ -1,0 +1,43 @@
+<robot
+  name="coffee_table_3_level">
+  <link
+    name="coffee_table_3_level">
+    <inertial>
+      <origin
+        xyz="2.8683E-17 -0.25 0.225"
+        rpy="0 0 0" />
+      <mass
+        value="38.892" />
+      <inertia
+        ixx="2.04068346909526"
+        ixy="-1.32064860651444E-15"
+        ixz="-3.87896119337892E-15"
+        iyy="7.42252441086027"
+        iyz="-8.5749893158899E-16"
+        izz="6.99451664669169" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://coffee_table_3_level/meshes/coffee_table_3_level.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://coffee_table_3_level/meshes/coffee_table_3_level.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

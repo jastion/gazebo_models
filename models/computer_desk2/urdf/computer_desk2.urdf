@@ -1,0 +1,43 @@
+<robot
+  name="computer_desk2">
+  <link
+    name="computer_desk2">
+    <inertial>
+      <origin
+        xyz="0.73579 -0.33871 0.45798"
+        rpy="0 0 0" />
+      <mass
+        value="102.08" />
+      <inertia
+        ixx="11.1698355585897"
+        ixy="-0.562881905030638"
+        ixz="-1.42996316086886"
+        iyy="27.2344217694982"
+        iyz="-0.114855665064901"
+        izz="24.8788937163572" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="-0.05 3.20449504605247E-17 0.75"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://computer_desk2/meshes/computer_desk2.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.17647 0.15294 0.066667 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="-0.05 3.20449504605247E-17 0.75"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://computer_desk2/meshes/computer_desk2.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

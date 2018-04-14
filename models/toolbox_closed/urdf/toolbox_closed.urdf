@@ -1,0 +1,43 @@
+<robot
+  name="toolbox_closed">
+  <link
+    name="toolbox_closed">
+    <inertial>
+      <origin
+        xyz="0.0010629 7.55510000001228E-06 0.20063"
+        rpy="0 0 0" />
+      <mass
+        value="0.24271" />
+      <inertia
+        ixx="0.0103037951759781"
+        ixy="-2.58636612175658E-07"
+        ixz="-2.77772008043021E-06"
+        iyy="0.00443028450189741"
+        iyz="-4.01968378683489E-07"
+        izz="0.00961233561447165" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toolbox_closed/meshes/toolbox_closed.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toolbox_closed/meshes/toolbox_closed.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

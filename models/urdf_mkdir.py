@@ -15,7 +15,7 @@ if __name__ == "__main__":
 		Name_of_subdirectories = ['config','meshes','launch','textures','urdf']
 
 		for file in os.listdir(os.getcwd()):
-	    		if file.endswith(".urdf") || file.endswith(".dae") || file.endswith(".xacro"):
+	    		if file.endswith(".urdf") or file.endswith(".dae") or file.endswith(".xacro"):
 				# Necessary parameters
 				Path_to_File     = os.path.join(os.getcwd(),file)
 				Name_of_File     = os.path.splitext(Path_to_File)[0]

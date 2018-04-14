@@ -1,0 +1,43 @@
+<robot
+  name="sofa2_red">
+  <link
+    name="sofa2_red">
+    <inertial>
+      <origin
+        xyz="1.4845 -2.3255 1.1259"
+        rpy="0 0 0" />
+      <mass
+        value="1059.6" />
+      <inertia
+        ixx="940.429588243677"
+        ixy="-254.985014549715"
+        ixz="16.0500129055299"
+        iyy="373.510603520636"
+        iyz="-17.1920779246872"
+        izz="1270.88182431136" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sofa2_red/meshes/sofa2_red.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sofa2_red/meshes/sofa2_red.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

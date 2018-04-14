@@ -1,0 +1,43 @@
+<robot
+  name="laptop_lenovo_ideapad">
+  <link
+    name="laptop_lenovo_ideapad">
+    <inertial>
+      <origin
+        xyz="-0.0038433 0.054096 0.050255"
+        rpy="0 0 0" />
+      <mass
+        value="2.0273" />
+      <inertia
+        ixx="0.0279707757357504"
+        ixy="4.23981802361672E-05"
+        ixz="0.000559919332756686"
+        iyy="0.0359168596223128"
+        iyz="-0.00839857441969341"
+        izz="0.0399286348477836" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://laptop_lenovo_ideapad/meshes/laptop_lenovo_ideapad.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://laptop_lenovo_ideapad/meshes/laptop_lenovo_ideapad.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

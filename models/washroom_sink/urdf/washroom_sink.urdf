@@ -1,0 +1,46 @@
+<gazebo>
+  <static>True</static>
+</gazebo>
+<robot
+  name="washroom_sink">
+  <link
+    name="washroom_sink">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="60.0407" />
+      <inertia
+        ixx="-0.00369665283851484"
+        ixy="-0.60683368995136E-06"
+        ixz="-0.05429492895749E-05"
+        iyy="-35.00199251178703969"
+        iyz="-0.000488316404478548"
+        izz="-0.0023306014498467" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://washroom_sink/meshes/washroom_sink.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://washroom_sink/meshes/washroom_sink.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

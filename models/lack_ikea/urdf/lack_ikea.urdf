@@ -1,0 +1,43 @@
+<robot
+  name="lack_ikea">
+  <link
+    name="lack_ikea">
+    <inertial>
+      <origin
+        xyz="-1.918E-16 -2.22817126077982E-18 -0.03639"
+        rpy="0 0 0" />
+      <mass
+        value="21.472" />
+      <inertia
+        ixx="1.02824628163717"
+        ixy="4.06575814682064E-17"
+        ixz="3.29483968808317E-16"
+        iyy="1.02824628163718"
+        iyz="1.19893790189897E-16"
+        izz="1.49230122954338" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lack_ikea/meshes/lack_ikea.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://lack_ikea/meshes/lack_ikea.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

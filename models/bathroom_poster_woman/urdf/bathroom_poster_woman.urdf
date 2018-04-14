@@ -1,0 +1,43 @@
+<robot
+  name="bathroom_poster_woman">
+  <link
+    name="bathroom_poster_woman">
+    <inertial>
+      <origin
+        xyz="5.9862E-09 -6.4324E-05 -0.00075"
+        rpy="0 0 0" />
+      <mass
+        value="0.095818" />
+      <inertia
+        ixx="8.80453037675995E-05"
+        ixy="1.28568396581369E-11"
+        ixz="6.9614337110952E-23"
+        iyy="9.57395337577417E-05"
+        iyz="5.40266459898213E-21"
+        izz="0.000183748905738192" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bathroom_poster_woman/meshes/bathroom_poster_woman.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.64706 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bathroom_poster_woman/meshes/bathroom_poster_woman.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

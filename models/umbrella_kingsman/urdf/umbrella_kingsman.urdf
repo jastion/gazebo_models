@@ -1,0 +1,43 @@
+<robot
+  name="umbrella_kingsman">
+  <link
+    name="umbrella_kingsman">
+    <inertial>
+      <origin
+        xyz="0.27051 -0.13917 0.12596"
+        rpy="0 0 0" />
+      <mass
+        value="0.58654" />
+      <inertia
+        ixx="0.000816646996786972"
+        ixy="-3.42761971299681E-05"
+        ixz="0.00234006506100411"
+        iyy="0.0258264139104396"
+        iyz="-6.36198849826656E-06"
+        izz="0.0252086400136505" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://umbrella_kingsman/meshes/umbrella_kingsman.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://umbrella_kingsman/meshes/umbrella_kingsman.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

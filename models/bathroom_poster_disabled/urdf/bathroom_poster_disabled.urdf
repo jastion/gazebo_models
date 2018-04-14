@@ -1,0 +1,43 @@
+<robot
+  name="bathroom_poster_disabled">
+  <link
+    name="bathroom_poster_disabled">
+    <inertial>
+      <origin
+        xyz="0.00084741 0.00069732 -0.00075"
+        rpy="0 0 0" />
+      <mass
+        value="0.1019" />
+      <inertia
+        ixx="8.80097097861477E-05"
+        ixy="1.39239227906378E-06"
+        ixz="1.1928816720303E-22"
+        iyy="9.2518338808224E-05"
+        iyz="5.3336263833278E-21"
+        izz="0.000180489836788989" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bathroom_poster_disabled/meshes/bathroom_poster_disabled.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.64706 0.61961 0.58824 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bathroom_poster_disabled/meshes/bathroom_poster_disabled.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

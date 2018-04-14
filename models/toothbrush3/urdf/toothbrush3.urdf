@@ -1,0 +1,43 @@
+<robot
+  name="toothbrush3">
+  <link
+    name="toothbrush3">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0.781" />
+      <inertia
+        ixx="0.166960116762902"
+        ixy="-0.000787307663819195"
+        ixz="0.741401320087295"
+        iyy="4.86164576090043"
+        iyz="0.000108496134432472"
+        izz="4.73454415448615" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toothbrush3/meshes/toothbrush3.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toothbrush3/meshes/toothbrush3.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,43 @@
+<robot
+  name="couch_ikea">
+  <link
+    name="couch_ikea">
+    <inertial>
+      <origin
+        xyz="1.8771E-07 0.075697 0.32523"
+        rpy="0 0 0" />
+      <mass
+        value="435.29" />
+      <inertia
+        ixx="32.6884309720656"
+        ixy="-1.24384353094031E-05"
+        ixz="6.77792219400119E-06"
+        iyy="81.5207128346485"
+        iyz="-4.87136937361572"
+        izz="95.075349947584" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://couch_ikea/meshes/couch_ikea.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://couch_ikea/meshes/couch_ikea.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

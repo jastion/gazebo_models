@@ -1,0 +1,43 @@
+<robot
+  name="recliner_lazyboy">
+  <link
+    name="recliner_lazyboy">
+    <inertial>
+      <origin
+        xyz="0.48331 0.47807 0.40345"
+        rpy="0 0 0" />
+      <mass
+        value="482.89" />
+      <inertia
+        ixx="74.6062045839168"
+        ixy="-0.0244532774429457"
+        ixz="-0.0391714914771899"
+        iyy="84.2910522162311"
+        iyz="-18.7204404268122"
+        izz="88.7409429056383" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://recliner_lazyboy/meshes/recliner_lazyboy.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://recliner_lazyboy/meshes/recliner_lazyboy.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

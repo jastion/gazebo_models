@@ -1,0 +1,43 @@
+<robot
+  name="bluetooth_mouse">
+  <link
+    name="bluetooth_mouse">
+    <inertial>
+      <origin
+        xyz="-0.0080656 -4.31499999999892E-06 0.017671"
+        rpy="0 0 0" />
+      <mass
+        value="0.02049" />
+      <inertia
+        ixx="1.22759221470926E-05"
+        ixy="5.80395986745679E-09"
+        ixz="8.06554844644308E-07"
+        iyy="3.04232940553676E-05"
+        iyz="-3.72810293292E-09"
+        izz="3.430930243165E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bluetooth_mouse/meshes/bluetooth_mouse.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bluetooth_mouse/meshes/bluetooth_mouse.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

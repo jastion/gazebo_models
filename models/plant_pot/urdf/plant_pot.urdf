@@ -1,0 +1,43 @@
+<robot
+  name="plant_pot">
+  <link
+    name="plant_pot">
+    <inertial>
+      <origin
+        xyz="0.00032589 -0.000706459999999989 0.18804"
+        rpy="0 0 0" />
+      <mass
+        value="14.914" />
+      <inertia
+        ixx="0.274948914289053"
+        ixy="0.000423426553657998"
+        ixz="0.00239430979497938"
+        iyy="0.274188081934919"
+        iyz="0.00562655424219606"
+        izz="0.13484085030266" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://plant_pot/meshes/plant_pot.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://plant_pot/meshes/plant_pot.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

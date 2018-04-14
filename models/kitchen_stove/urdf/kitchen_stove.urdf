@@ -1,0 +1,43 @@
+<robot
+  name="kitchen_stove">
+  <link
+    name="kitchen_stove">
+    <inertial>
+      <origin
+        xyz="1.0641E-07 0.33688 0.52734"
+        rpy="0 0 0" />
+      <mass
+        value="277.04" />
+      <inertia
+        ixx="40.2106468234878"
+        ixy="-1.1158868840007E-05"
+        ixz="1.23751450243884E-05"
+        iyy="51.0406542100369"
+        iyz="1.14362516083904"
+        izz="33.350644024097" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://kitchen_stove/meshes/kitchen_stove.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://kitchen_stove/meshes/kitchen_stove.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

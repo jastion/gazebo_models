@@ -1,0 +1,43 @@
+<robot
+  name="shipping_crate">
+  <link
+    name="shipping_crate">
+    <inertial>
+      <origin
+        xyz="-3.7769E-05 9.93890000000185E-05 0.30287"
+        rpy="0 0 0" />
+      <mass
+        value="162.52" />
+      <inertia
+        ixx="9.5574813500467"
+        ixy="-0.00121326987744629"
+        ixz="-0.000650487310871771"
+        iyy="11.5370091846932"
+        iyz="-0.00171175318139499"
+        izz="7.83737160007737" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://shipping_crate/meshes/shipping_crate.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://shipping_crate/meshes/shipping_crate.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

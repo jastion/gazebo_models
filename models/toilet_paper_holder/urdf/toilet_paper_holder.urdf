@@ -1,0 +1,43 @@
+<robot
+  name="toilet_paper_holder">
+  <link
+    name="toilet_paper_holder">
+    <inertial>
+      <origin
+        xyz="-0.0025165 -0.041348 -0.037396"
+        rpy="0 0 0" />
+      <mass
+        value="0.44801" />
+      <inertia
+        ixx="0.00106750859979154"
+        ixy="-2.71421413359639E-05"
+        ixz="3.37900611799239E-05"
+        iyy="0.00131900188948131"
+        iyz="-1.27461967714021E-05"
+        izz="0.00128012606597175" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toilet_paper_holder/meshes/toilet_paper_holder.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toilet_paper_holder/meshes/toilet_paper_holder.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

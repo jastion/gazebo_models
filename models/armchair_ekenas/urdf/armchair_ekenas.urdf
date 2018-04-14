@@ -1,0 +1,43 @@
+<robot
+  name="armchair_ekenas">
+  <link
+    name="armchair_ekenas">
+    <inertial>
+      <origin
+        xyz="-7.7469E-08 0.4444 0.31194"
+        rpy="0 0 0" />
+      <mass
+        value="393.32" />
+      <inertia
+        ixx="37.2433600677861"
+        ixy="1.07625391002185E-05"
+        ixz="1.94384895627184E-05"
+        iyy="43.0590279160134"
+        iyz="-6.06657650171367"
+        izz="46.8817058064854" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://armchair_ekenas/meshes/armchair_ekenas.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://armchair_ekenas/meshes/armchair_ekenas.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

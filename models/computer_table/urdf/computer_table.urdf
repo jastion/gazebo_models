@@ -1,0 +1,43 @@
+<robot
+  name="computer_table">
+  <link
+    name="computer_table">
+    <inertial>
+      <origin
+        xyz="-0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="28.743" />
+      <inertia
+        ixx="187.967646036987"
+        ixy="-8.68077767090581"
+        ixz="-7.87552904811458"
+        iyy="491.860976418071"
+        iyz="-3.23664862977446"
+        izz="639.528790115555" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://computer_table/meshes/computer_table.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://computer_table/meshes/computer_table.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

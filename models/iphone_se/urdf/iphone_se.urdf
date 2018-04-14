@@ -1,0 +1,43 @@
+<robot
+  name="iphone_se">
+  <link
+    name="iphone_se">
+    <inertial>
+      <origin
+        xyz="1.4981E-05 -0.0037483 0.06194"
+        rpy="0 0 0" />
+      <mass
+        value="0.053908" />
+      <inertia
+        ixx="6.73684114121101E-05"
+        ixy="-2.37656726045254E-09"
+        ixz="-1.59452620623632E-07"
+        iyy="8.26109972522622E-05"
+        iyz="8.21661007123583E-09"
+        izz="1.57476127289594E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://iphone_se/meshes/iphone_se.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://iphone_se/meshes/iphone_se.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

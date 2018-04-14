@@ -1,0 +1,43 @@
+<robot
+  name="chest_drawer_wooden">
+  <link
+    name="chest_drawer_wooden">
+    <inertial>
+      <origin
+        xyz="0.7204 -1.3051 0.86445"
+        rpy="0 0 0" />
+      <mass
+        value="229.57" />
+      <inertia
+        ixx="25.0559197064833"
+        ixy="-1.36772231973098E-14"
+        ixz="1.11574402502704E-14"
+        iyy="72.3452375143369"
+        iyz="-0.193817859260018"
+        izz="62.8744226375866" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://chest_drawer_wooden/meshes/chest_drawer_wooden.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://chest_drawer_wooden/meshes/chest_drawer_wooden.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

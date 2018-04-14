@@ -1,0 +1,43 @@
+<robot
+  name="sofa_couch">
+  <link
+    name="sofa_couch">
+    <inertial>
+      <origin
+        xyz="-3.0047E-09 0.35044 0.33527"
+        rpy="0 0 0" />
+      <mass
+        value="447.13" />
+      <inertia
+        ixx="27.1705941087781"
+        ixy="-2.40779756688347E-07"
+        ixz="-5.44653349532354E-07"
+        iyy="121.778927713019"
+        iyz="-4.40420419617866"
+        izz="128.574430925705" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sofa_couch/meshes/sofa_couch.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sofa_couch/meshes/sofa_couch.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

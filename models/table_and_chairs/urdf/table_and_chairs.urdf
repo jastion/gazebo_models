@@ -1,0 +1,43 @@
+<robot
+  name="table_and_chairs">
+  <link
+    name="table_and_chairs">
+    <inertial>
+      <origin
+        xyz="0.0007002 -0.00149560000000001 -0.19835"
+        rpy="0 0 0" />
+      <mass
+        value="335" />
+      <inertia
+        ixx="59.3903760564234"
+        ixy="-0.0572901611115046"
+        ixz="-0.00984754956569911"
+        iyy="101.54969897936"
+        iyz="-0.0209394890338555"
+        izz="131.702801803247" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://table_and_chairs/meshes/table_and_chairs.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://table_and_chairs/meshes/table_and_chairs.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

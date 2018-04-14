@@ -1,0 +1,43 @@
+<robot
+  name="hammer_part">
+  <link
+    name="hammer_part">
+    <inertial>
+      <origin
+        xyz="-0.000219 6.6213000000012E-06 0.019582"
+        rpy="0 0 0" />
+      <mass
+        value="0.21421" />
+      <inertia
+        ixx="0.00140424126322997"
+        ixy="3.79736704329491E-08"
+        ixz="-1.09946292251338E-05"
+        iyy="0.00144910369610408"
+        iyz="-5.47481408836937E-08"
+        izz="7.12508309737544E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hammer_part/meshes/hammer_part.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hammer_part/meshes/hammer_part.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

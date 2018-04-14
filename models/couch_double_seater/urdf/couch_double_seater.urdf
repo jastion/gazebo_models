@@ -1,0 +1,43 @@
+<robot
+  name="couch_double_seater">
+  <link
+    name="couch_double_seater">
+    <inertial>
+      <origin
+        xyz="0.875 0.53844 0.32362"
+        rpy="0 0 0" />
+      <mass
+        value="971.7" />
+      <inertia
+        ixx="114.496758296967"
+        ixy="-0.000377848140600712"
+        ixz="-0.00108224404037305"
+        iyy="290.239741539032"
+        iyz="-10.3918742090181"
+        izz="328.407367871819" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://couch_double_seater/meshes/couch_double_seater.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://couch_double_seater/meshes/couch_double_seater.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

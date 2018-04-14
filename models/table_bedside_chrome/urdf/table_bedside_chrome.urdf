@@ -1,0 +1,43 @@
+<robot
+  name="table_bedside_chrome">
+  <link
+    name="table_bedside_chrome">
+    <inertial>
+      <origin
+        xyz="-5.2934E-18 0.00745690000000002 0.36134"
+        rpy="0 0 0" />
+      <mass
+        value="25.273" />
+      <inertia
+        ixx="1.42620511367159"
+        ixy="8.23993651088983E-17"
+        ixz="1.11022302462516E-16"
+        iyy="1.67104044834985"
+        iyz="0.0650135479032876"
+        izz="1.09068949771313" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://table_bedside_chrome/meshes/table_bedside_chrome.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://table_bedside_chrome/meshes/table_bedside_chrome.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

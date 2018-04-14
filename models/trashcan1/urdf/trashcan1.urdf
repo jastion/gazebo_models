@@ -1,0 +1,43 @@
+<robot
+  name="trashcan1">
+  <link
+    name="trashcan1">
+    <inertial>
+      <origin
+        xyz="-5.3753E-06 0.00511050000000001 0.21076"
+        rpy="0 0 0" />
+      <mass
+        value="10.456" />
+      <inertia
+        ixx="0.477454557978313"
+        ixy="4.05471465762524E-07"
+        ixz="-1.37790537135304E-05"
+        iyy="0.462169120817004"
+        iyz="-0.00650400526365518"
+        izz="0.287666083183392" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://trashcan1/meshes/trashcan1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://trashcan1/meshes/trashcan1.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

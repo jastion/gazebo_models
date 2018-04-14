@@ -1,0 +1,43 @@
+<robot
+  name="sofa_l_shape">
+  <link
+    name="sofa_l_shape">
+    <inertial>
+      <origin
+        xyz="0.53515 0.54118 0.31534"
+        rpy="0 0 0" />
+      <mass
+        value="2391.9" />
+      <inertia
+        ixx="897.422281914237"
+        ixy="566.785378382428"
+        ixz="20.4546357988851"
+        iyy="1891.08657731611"
+        iyz="-10.2617150812874"
+        izz="2577.11359455057" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sofa_l_shape/meshes/sofa_l_shape.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://sofa_l_shape/meshes/sofa_l_shape.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

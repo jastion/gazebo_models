@@ -1,0 +1,43 @@
+<robot
+  name="pc_chair">
+  <link
+    name="pc_chair">
+    <inertial>
+      <origin
+        xyz="-1.6075 0.064185 0.009927"
+        rpy="0 0 0" />
+      <mass
+        value="6.8784" />
+      <inertia
+        ixx="0.653819381336496"
+        ixy="-3.47838703425134E-06"
+        ixz="2.72508676179006E-05"
+        iyy="0.669991033018412"
+        iyz="-0.134661772184968"
+        izz="0.300059565437171" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pc_chair/meshes/pc_chair.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pc_chair/meshes/pc_chair.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

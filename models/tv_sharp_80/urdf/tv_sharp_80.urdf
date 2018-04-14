@@ -1,0 +1,43 @@
+<robot
+  name="tv_sharp_80">
+  <link
+    name="tv_sharp_80">
+    <inertial>
+      <origin
+        xyz="0.3246 -0.00628549999999999 0.20549"
+        rpy="0 0 0" />
+      <mass
+        value="3.2279" />
+      <inertia
+        ixx="0.0447393455190466"
+        ixy="-1.01772227645027E-09"
+        ixz="-2.64256973412663E-08"
+        iyy="0.152593275477457"
+        iyz="-4.38138415244924E-05"
+        izz="0.108696587461639" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tv_sharp_80/meshes/tv_sharp_80.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tv_sharp_80/meshes/tv_sharp_80.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,43 @@
+<robot
+  name="basketball">
+  <link
+    name="basketball">
+    <inertial>
+      <origin
+        xyz="-5.3172E-07 -5.1224E-06 1.9519E-07"
+        rpy="0 0 0" />
+      <mass
+        value="0.92924" />
+      <inertia
+        ixx="0.00928463726968465"
+        ixy="6.79034016336533E-08"
+        ixz="-3.27819378258304E-08"
+        iyy="0.00932680990397512"
+        iyz="1.18029868814455E-08"
+        izz="0.00928507621721654" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://basketball/meshes/test.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.9098 0.44314 0.031373 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://basketball/meshes/test.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

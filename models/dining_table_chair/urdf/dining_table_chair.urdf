@@ -1,0 +1,43 @@
+<robot
+  name="dining_table_chair">
+  <link
+    name="dining_table_chair">
+    <inertial>
+      <origin
+        xyz="-0.055761 3.82660000032401E-07 0.52917"
+        rpy="0 0 0" />
+      <mass
+        value="2.9082" />
+      <inertia
+        ixx="0.136308812912529"
+        ixy="-4.19306452700574E-07"
+        ixz="-0.0503892585517635"
+        iyy="0.15853418528859"
+        iyz="1.29306709186097E-07"
+        izz="0.11620429258026" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dining_table_chair/meshes/dining_table_chair.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dining_table_chair/meshes/dining_table_chair.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

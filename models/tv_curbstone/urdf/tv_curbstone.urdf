@@ -1,0 +1,43 @@
+<robot
+  name="tv_curbstone">
+  <link
+    name="tv_curbstone">
+    <inertial>
+      <origin
+        xyz="-0.0096176 -0.24918 0.36027"
+        rpy="0 0 0" />
+      <mass
+        value="907.29" />
+      <inertia
+        ixx="72.8870737906967"
+        ixy="0.583244781287835"
+        ixz="0.72076352451082"
+        iyy="175.938812241716"
+        iyz="-0.519412487076515"
+        izz="143.877943469027" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tv_curbstone/meshes/tv_curbstone.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.24706 0.14118 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://tv_curbstone/meshes/tv_curbstone.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

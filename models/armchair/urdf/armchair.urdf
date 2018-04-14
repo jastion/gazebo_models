@@ -1,0 +1,43 @@
+<robot
+  name="armchair">
+  <link
+    name="armchair">
+    <inertial>
+      <origin
+        xyz="-0.61607 -0.029558 -0.1203"
+        rpy="0 0 0" />
+      <mass
+        value="520.03" />
+      <inertia
+        ixx="59.7934540578341"
+        ixy="-0.00691219814398844"
+        ixz="0.00107753841298062"
+        iyy="81.8334069343568"
+        iyz="-12.2529082491097"
+        izz="107.017505005335" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://armchair/meshes/armchair.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://armchair/meshes/armchair.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

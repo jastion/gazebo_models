@@ -1,0 +1,43 @@
+<robot
+  name="dining_table_set">
+  <link
+    name="dining_table_set">
+    <inertial>
+      <origin
+        xyz="-0.00056834 0.000327389999999995 -0.087786"
+        rpy="0 0 0" />
+      <mass
+        value="38.196" />
+      <inertia
+        ixx="2.77805917287179"
+        ixy="-0.00378677371264622"
+        ixz="0.00308720464519527"
+        iyy="6.88441584523427"
+        iyz="0.00177839598726867"
+        izz="8.66696394041689" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dining_table_set/meshes/dining_table_set.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://dining_table_set/meshes/dining_table_set.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

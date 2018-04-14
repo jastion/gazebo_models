@@ -1,0 +1,43 @@
+<robot
+  name="hertog_krat">
+  <link
+    name="hertog_krat">
+    <inertial>
+      <origin
+        xyz="0.19801 -0.149 0.098284"
+        rpy="0 0 0" />
+      <mass
+        value="4.7831" />
+      <inertia
+        ixx="0.0808133626484557"
+        ixy="1.05971973869518E-07"
+        ixz="1.95902256549394E-06"
+        iyy="0.117103314852648"
+        iyz="2.15837569823006E-07"
+        izz="0.155198924047863" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hertog_krat/meshes/hertog_krat.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.37255 0.23529 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hertog_krat/meshes/hertog_krat.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

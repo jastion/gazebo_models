@@ -1,0 +1,43 @@
+<robot
+  name="fridge3">
+  <link
+    name="fridge3">
+    <inertial>
+      <origin
+        xyz="0.4877 0.28154 0.82864"
+        rpy="0 0 0" />
+      <mass
+        value="856" />
+      <inertia
+        ixx="221.02021824707"
+        ixy="-0.344343058065459"
+        ixz="0.508603047657936"
+        iyy="265.751607025257"
+        iyz="-0.132502845888395"
+        izz="86.777145104679" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://fridge3/meshes/fridge3.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.90196 0.92157 0.92157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://fridge3/meshes/fridge3.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

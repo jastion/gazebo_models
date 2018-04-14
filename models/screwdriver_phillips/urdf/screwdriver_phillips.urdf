@@ -1,0 +1,43 @@
+<robot
+  name="screwdriver_phillips">
+  <link
+    name="screwdriver_phillips">
+    <inertial>
+      <origin
+        xyz="-2.4003E-07 -0.14843 -8.07949999909116E-08"
+        rpy="0 0 0" />
+      <mass
+        value="0.44296" />
+      <inertia
+        ixx="0.00499676694642262"
+        ixy="1.34705866579092E-08"
+        ixz="-3.58686547860022E-08"
+        iyy="8.96716514132398E-05"
+        iyz="-3.90633667998312E-09"
+        izz="0.00499669683331358" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://screwdriver_phillips/meshes/screwdriver_phillips.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://screwdriver_phillips/meshes/screwdriver_phillips.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

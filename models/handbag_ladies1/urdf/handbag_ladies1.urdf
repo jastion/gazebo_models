@@ -1,0 +1,43 @@
+<robot
+  name="handbag_ladies1">
+  <link
+    name="handbag_ladies1">
+    <inertial>
+      <origin
+        xyz="-3.3339E-05 0.0026754 -0.062308"
+        rpy="0 0 0" />
+      <mass
+        value="0.18101" />
+      <inertia
+        ixx="0.000394822550012161"
+        ixy="3.27726443917593E-06"
+        ixz="-2.41808737317654E-06"
+        iyy="0.00055603394312791"
+        iyz="6.84393064276212E-06"
+        izz="0.000321096616293339" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://handbag_ladies1/meshes/handbag_ladies1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://handbag_ladies1/meshes/handbag_ladies1.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

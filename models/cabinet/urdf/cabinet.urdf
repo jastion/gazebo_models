@@ -1,0 +1,43 @@
+<robot
+  name="cabinet">
+  <link
+    name="cabinet">
+    <inertial>
+      <origin
+        xyz="-0.18157 -0.17067 0.58658"
+        rpy="0 0 0" />
+      <mass
+        value="47.563" />
+      <inertia
+        ixx="3.78861223116977"
+        ixy="0.0457021709732629"
+        ixz="0.0529331803110086"
+        iyy="8.20155116498925"
+        iyz="-0.0695320827136922"
+        izz="5.52973545440082" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cabinet/meshes/cabinet.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cabinet/meshes/cabinet.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
