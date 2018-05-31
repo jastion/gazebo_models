@@ -1,0 +1,43 @@
+<robot
+  name="spoon_chrome">
+  <link
+    name="spoon_chrome">
+    <inertial>
+      <origin
+        xyz="0.017607 7.5035999999997E-06 -0.0048273"
+        rpy="0 0 0" />
+      <mass
+        value="0.0063957" />
+      <inertia
+        ixx="5.98910125129551E-07"
+        ixy="6.86911515278676E-10"
+        ixz="1.33142520009679E-06"
+        iyy="2.52333690597294E-05"
+        iyz="2.37991183381145E-11"
+        izz="2.56367387552231E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spoon_chrome/meshes/spoon_chrome.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://spoon_chrome/meshes/spoon_chrome.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

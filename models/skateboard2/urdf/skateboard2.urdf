@@ -1,0 +1,43 @@
+<robot
+  name="skateboard2">
+  <link
+    name="skateboard2">
+    <inertial>
+      <origin
+        xyz="1.0582E-06 0.38605 -0.047176"
+        rpy="0 0 0" />
+      <mass
+        value="1.8825" />
+      <inertia
+        ixx="0.092177001595113"
+        ixy="1.51967776468211E-06"
+        ixz="-2.14065610650499E-09"
+        iyy="0.00646497451127076"
+        iyz="-0.000649352791814289"
+        izz="0.0964370911988591" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://skateboard2/meshes/skateboard2.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://skateboard2/meshes/skateboard2.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

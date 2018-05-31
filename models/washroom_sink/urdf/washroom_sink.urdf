@@ -1,5 +1,5 @@
 <gazebo>
-  <static>True</static>
+    <static>true</static>
 </gazebo>
 <robot
   name="washroom_sink">

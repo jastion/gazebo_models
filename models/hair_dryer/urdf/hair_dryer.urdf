@@ -1,0 +1,43 @@
+<robot
+  name="hair_dryer">
+  <link
+    name="hair_dryer">
+    <inertial>
+      <origin
+        xyz="-0.0046765 1.53469999999946E-05 -0.088107"
+        rpy="0 0 0" />
+      <mass
+        value="3.2128" />
+      <inertia
+        ixx="0.0487954877138534"
+        ixy="-1.27181107067272E-06"
+        ixz="-0.00133424671263102"
+        iyy="0.071149267842257"
+        iyz="-2.8676564130546E-06"
+        izz="0.0301991143400093" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hair_dryer/meshes/hair_dryer.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hair_dryer/meshes/hair_dryer.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

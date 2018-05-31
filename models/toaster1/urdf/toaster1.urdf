@@ -1,0 +1,43 @@
+<robot
+  name="toaster1">
+  <link
+    name="toaster1">
+    <inertial>
+      <origin
+        xyz="-0.00030972 -0.000166819999999994 0.10293"
+        rpy="0 0 0" />
+      <mass
+        value="8.2906" />
+      <inertia
+        ixx="0.0496853804663714"
+        ixy="0.000248243113281002"
+        ixz="8.68261297575204E-05"
+        iyy="0.0792733138308401"
+        iyz="-0.000219354820172162"
+        izz="0.078860702720263" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toaster1/meshes/toaster1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://toaster1/meshes/toaster1.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,43 @@
+<robot
+  name="fork_farshita">
+  <link
+    name="fork_farshita">
+    <inertial>
+      <origin
+        xyz="-0.0076472 -0.033644 -0.0035342"
+        rpy="0 0 0" />
+      <mass
+        value="0.0055298" />
+      <inertia
+        ixx="4.47903695970388E-07"
+        ixy="-5.2034687875313E-11"
+        ixz="-1.94779257667291E-06"
+        iyy="1.81773276049777E-05"
+        iyz="-1.21648767858969E-11"
+        izz="1.81382569907277E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://fork_farshita/meshes/fork_farshita.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.89804 0.89804 0.89804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://fork_farshita/meshes/fork_farshita.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

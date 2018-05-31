@@ -1,0 +1,43 @@
+<robot
+  name="bowl_brown">
+  <link
+    name="bowl_brown">
+    <inertial>
+      <origin
+        xyz="3.1759E-08 5.72900000014883E-08 0.024306"
+        rpy="0 0 0" />
+      <mass
+        value="0.26971" />
+      <inertia
+        ixx="0.000517560839351018"
+        ixy="1.87427456320713E-09"
+        ixz="6.44930589074778E-11"
+        iyy="0.000517556516280551"
+        iyz="-1.50393392445857E-10"
+        izz="0.000885598906231316" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bowl_brown/meshes/bowl_brown.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.98824 0.98431 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bowl_brown/meshes/bowl_brown.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

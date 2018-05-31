@@ -1,0 +1,43 @@
+<robot
+  name="bed1_single">
+  <link
+    name="bed1_single">
+    <inertial>
+      <origin
+        xyz="-1.2466E-16 0.047594 0.033311"
+        rpy="0 0 0" />
+      <mass
+        value="32.432" />
+      <inertia
+        ixx="14.9509888886061"
+        ixy="-2.60899745832107E-16"
+        ixz="1.32822405344872E-16"
+        iyy="8.22595224269883"
+        iyz="-0.794875771365754"
+        izz="22.0546356258264" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bed1_single/meshes/bed1_single.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bed1_single/meshes/bed1_single.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

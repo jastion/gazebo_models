@@ -1,0 +1,43 @@
+<robot
+  name="bed_bunk">
+  <link
+    name="bed_bunk">
+    <inertial>
+      <origin
+        xyz="0.68543 1.3199 0.80942"
+        rpy="0 0 0" />
+      <mass
+        value="849.02" />
+      <inertia
+        ixx="691.589789817959"
+        ixy="8.90518600205542"
+        ixz="-27.0062686594775"
+        iyy="429.67995676995"
+        iyz="-37.1683303620518"
+        izz="591.135261649668" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bed_bunk/meshes/bed_bunk.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bed_bunk/meshes/bed_bunk.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

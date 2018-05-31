@@ -1,0 +1,43 @@
+<robot
+  name="backpack1">
+  <link
+    name="backpack1">
+    <inertial>
+      <origin
+        xyz="-0.00034807 -0.017513 0.22133"
+        rpy="0 0 0" />
+      <mass
+        value="28.289" />
+      <inertia
+        ixx="0.570700676752247"
+        ixy="-0.000365858689587494"
+        ixz="0.00021734764229831"
+        iyy="0.625788752144029"
+        iyz="-0.0098990329497286"
+        izz="0.317175663983044" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://backpack1/meshes/backpack1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://backpack1/meshes/backpack1.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

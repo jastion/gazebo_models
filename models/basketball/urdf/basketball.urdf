@@ -1,5 +1,7 @@
-<robot
-  name="basketball">
+<gazebo>
+    <static>true</static>
+</gazebo>
+<robot name="basketball >
   <link
     name="basketball">
     <inertial>
@@ -19,7 +21,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="1.5707963267949 0 0" />
+        rpy="0 0 0" />
       <geometry>
         <mesh
           filename="package://basketball/meshes/test.dae" />
@@ -33,7 +35,7 @@
     <collision>
       <origin
         xyz="0 0 0"
-        rpy="1.5707963267949 0 0" />
+        rpy="0 0 0" />
       <geometry>
         <mesh
           filename="package://basketball/meshes/test.dae" />

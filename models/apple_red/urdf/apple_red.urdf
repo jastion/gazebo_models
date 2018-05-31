@@ -1,0 +1,43 @@
+<robot
+  name="apple_red">
+  <link
+    name="apple_red">
+    <inertial>
+      <origin
+        xyz="1.1109E-05 -1.65680000001775E-07 -0.028984"
+        rpy="0 0 0" />
+      <mass
+        value="0.3881" />
+      <inertia
+        ixx="0.000318364955071982"
+        ixy="8.97397562682912E-13"
+        ixz="2.48435129234205E-07"
+        iyy="0.000318428643211694"
+        iyz="3.75052247387981E-09"
+        izz="0.000324815609291037" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://apple_red/meshes/apple_red.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://apple_red/meshes/apple_red.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

@@ -1,0 +1,17 @@
+Apartment_floor_plan.word
+Empty world of an apartment household (1st floor)
+
+empty_home.world
+Empty world of a residential household (1st floor)
+
+home_floor_plan.world
+Empty world of a residential household (1st floor)
+
+home_floor_plan_v3.world
+Empty world of a residential household (1st floor)
+
+home_floor_type0.world
+residential household (1st floor) with objects
+
+kitchen.world
+westernized kitchen with adjacent dining area

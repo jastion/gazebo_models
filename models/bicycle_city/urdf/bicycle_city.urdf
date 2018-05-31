@@ -1,0 +1,43 @@
+<robot
+  name="bicycle_city">
+  <link
+    name="bicycle_city">
+    <inertial>
+      <origin
+        xyz="0.014437 -0.4962 0.15669"
+        rpy="0 0 0" />
+      <mass
+        value="27.994" />
+      <inertia
+        ixx="5.37455653866848"
+        ixy="0.376250767449006"
+        ixz="0.204953903051961"
+        iyy="1.45129646039161"
+        iyz="-0.503535886055961"
+        izz="4.30326622800681" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bicycle_city/meshes/bicycle_city.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bicycle_city/meshes/bicycle_city.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

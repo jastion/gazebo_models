@@ -19,7 +19,7 @@
     <visual>
       <origin
         xyz="0 0 0"
-        rpy="1.5707963267949 0 0" />
+        rpy="0 0 0" />
       <geometry>
         <mesh
           filename="package://home_floor_plan/meshes/home_floor_plan.STL" />
@@ -33,7 +33,7 @@
     <collision>
       <origin
         xyz="0 0 0"
-        rpy="1.5707963267949 0 0" />
+        rpy="0 0 0" />
       <geometry>
         <mesh
           filename="package://home_floor_plan/meshes/home_floor_plan.STL" />

@@ -1,0 +1,43 @@
+<robot
+  name="bicycle1">
+  <link
+    name="bicycle1">
+    <inertial>
+      <origin
+        xyz="0.71208 -0.000456609999999975 0.40693"
+        rpy="0 0 0" />
+      <mass
+        value="2.5871" />
+      <inertia
+        ixx="0.117940324277978"
+        ixy="-0.000689151336584467"
+        ixz="0.0313838492819028"
+        iyy="0.32820392503162"
+        iyz="-0.00142728080653542"
+        izz="0.227698629681476" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bicycle1/meshes/bicycle1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://bicycle1/meshes/bicycle1.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

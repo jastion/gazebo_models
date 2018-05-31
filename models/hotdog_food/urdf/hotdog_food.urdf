@@ -1,0 +1,43 @@
+<robot
+  name="hotdog_food">
+  <link
+    name="hotdog_food">
+    <inertial>
+      <origin
+        xyz="-0.00010798 5.04049999999956E-05 -0.07145"
+        rpy="0 0 0" />
+      <mass
+        value="250.42" />
+      <inertia
+        ixx="7.07457743495425"
+        ixy="0.00534555097397929"
+        ixz="-0.0060552966435395"
+        iyy="68.1156865530103"
+        iyz="-0.00209820589489941"
+        izz="70.8479496503559" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hotdog_food/meshes/hotdog_food.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hotdog_food/meshes/hotdog_food.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

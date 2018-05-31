@@ -1,0 +1,43 @@
+<robot
+  name="pillow1">
+  <link
+    name="pillow1">
+    <inertial>
+      <origin
+        xyz="-1.6261E-06 2.9989E-08 -8.3226E-09"
+        rpy="0 0 0" />
+      <mass
+        value="0.010165" />
+      <inertia
+        ixx="8.30588634434286E-07"
+        ixy="4.21478405191454E-12"
+        ixz="-1.27314332056701E-12"
+        iyy="1.82147879435927E-06"
+        iyz="8.59478568306079E-13"
+        izz="2.57134469357917E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pillow1/meshes/pillow1.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://pillow1/meshes/pillow1.dae" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

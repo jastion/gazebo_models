@@ -1,0 +1,44 @@
+<robot
+  name="clock_pendulum">
+  <link
+    name="clock_pendulum">
+    <inertial>
+      <origin
+        xyz="-0.00050219 0.0068955 0.022965"
+        rpy="0 0 0" />
+      <mass
+        value="3.5408" />
+      <inertia
+        ixx="0.0884434190702536"
+        ixy="1.34819969642951E-05"
+        ixz="0.000529844816610999"
+        iyy="0.113788985033997"
+        iyz="0.00221216750595803"
+        izz="0.0294468077572602" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://clock_pendulum/meshes/clock_pendulum.dae" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://clock_pendulum/meshes/clock_pendulum.dae" />
+      </geometry>
+    </collision>
+  </link>
+  <static>1</static>
+</robot>
